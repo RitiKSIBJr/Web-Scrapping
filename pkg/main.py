@@ -9,7 +9,7 @@ def main():
 
     quotes = soup.find_all(class_ = "text")
     
-    print("Quotes present in the webistes are given below:\n")
+    print("Quotes present in the webistes are below:\n")
     for x in quotes:
         print(x.string)
 
